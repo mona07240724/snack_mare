@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snack mare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- モバイル：ロゴ -->
+  <div class="mobile-logo mobile-only">
+    <img src="images/mare-logo.png" alt="snack mare">
+    <p>since 2023</p>
+  </div>
+
+  <!-- 全体ラッパー -->
+  <div class="layout">
+
+    <!-- 左：スライド -->
+    <div class="layout-left">
+      <div class="swiper hero-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/hello-1.JPG" alt="外観"></div>
+          <div class="swiper-slide"><img src="images/hello-2.JPG" alt="ママ"></div>
+          <div class="swiper-slide"><img src="images/hello-3.JPG" alt="ドリンク"></div>
+          <div class="swiper-slide"><img src="images/hello-4.JPG" alt="ボトル棚"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <img class="hero-seal" src="images/seal.png" alt="">
+    </div>
+
+    <!-- 右：コンテンツ -->
+    <div class="layout-right">
+
+      <!-- モバイル：キャッチ -->
+      <div class="mobile-catch mobile-only">
+        <p>17時から楽しめる、大人の隠れ家。<br>ダイエットのプロ監修「太りにくい突き出し」で<br>飲んで食べても罪悪感なし。</p>
+      </div>
+
+      <!-- PC：ヒーロー情報 -->
+      <div class="hero-info pc-only">
+        <img src="images/mare-logo.png" alt="snack mare">
+        <span class="since">since 2023</span>
+        <div class="divider"></div>
+        <p>17時から楽しめる、大人の隠れ家。<br>ダイエットのプロ監修「太りにくい突き出し」で<br>飲んで食べても罪悪感なし。</p>
+      </div>
+
+      <!-- Features -->
+      <section class="section">
+        <h2 class="section-title">Features</h2>
+        <div class="feature-item">
+          <p class="feature-name">ヘルシーおつまみ</p>
+          <p class="feature-desc">ママの特製・手作りの味。体に嬉しい一品。</p>
+          <div class="swiper food-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="images/ryori-1.png" alt="料理"></div>
+              <div class="swiper-slide"><img src="images/ryori-2.png" alt="料理"></div>
+              <div class="swiper-slide"><img src="images/ryori-3.png" alt="料理"></div>
+            </div>
+            <div class="swiper-pagination food-pagination"></div>
+            <div class="swiper-button-prev food-prev"></div>
+            <div class="swiper-button-next food-next"></div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <p class="feature-name">カラオケあり</p>
+          <p class="feature-desc">歌いながら楽しめる大人の空間。</p>
+          <img class="mic-img" src="images/mic.png" alt="マイク">
+        </div>
+        <div class="feature-item">
+          <p class="feature-name">喫煙可・無料Wi-Fi</p>
+          <p class="feature-desc">ゆったりくつろげる環境を整えています。</p>
+          <div class="inside-photo">
+            <img src="images/img-1.JPG" alt="店内">
+          </div>
+        </div>
+      </section>
+
+      <!-- Hours -->
+      <section class="section">
+        <h2 class="section-title">HOURS</h2>
+        <div class="hours-box">
+          <p class="hours-main">17:00 — 23:00</p>
+          <p class="hours-last">完全閉店　24:00</p>
+          <p class="hours-note">変更がある場合はLINEでお知らせします</p>
+        </div>
+      </section>
+
+      <!-- Payment -->
+      <section class="section">
+        <h2 class="section-title">PAYMENT</h2>
+        <div class="pay-tags">
+          <span class="pay-tag">現金</span>
+          <span class="pay-tag">VISA</span>
+          <span class="pay-tag">JCB</span>
+          <span class="pay-tag">Mastercard</span>
+          <span class="pay-tag">Diners Club</span>
+          <span class="pay-tag">American Express</span>
+        </div>
+      </section>
+
+      <!-- Access -->
+      <section class="section">
+        <h2 class="section-title">ACCESS</h2>
+        <p class="address-text">山梨県甲府市中央1丁目20-24　開発ビル1F</p>
+        <div class="map-wrap">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.731668977777!2d138.56750397530996!3d35.65898217259448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601bf9004ec6c6af%3A0x6a20e22e4a33987c!2sSnack%20Mare!5e0!3m2!1sja!2sjp!4v1777344832078!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div class="cta-section">
+        <div class="cta-row">
+          <a href="https://www.instagram.com/snack_mare/?hl=ja" target="_blank" rel="noopener" class="cta-btn cta-instagram">Instagram</a>
+          <a href="https://lin.ee/xAs0mxd" target="_blank" rel="noopener" class="cta-btn cta-line">LINE</a>
+          <a href="tel:0552315163" class="cta-btn cta-tel">電話する</a>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer>
+        <p>© 2023 Snack mare. All rights reserved.</p>
+      </footer>
+
+    </div><!-- /layout-right -->
+  </div><!-- /layout -->
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    // ヒーロースライド
+    new Swiper('.hero-swiper', {
+      loop: true,
+      autoplay: { delay: 4500, disableOnInteraction: false },
+      pagination: { el: '.hero-swiper .swiper-pagination', clickable: true },
+    });
+
+    // フードスライダー
+new Swiper('.food-swiper', {
+  slidesPerView: 1,
+  spaceBetween: 8,
+  pagination: { el: '.food-pagination', clickable: true },
+  navigation: { prevEl: '.food-prev', nextEl: '.food-next' },
+});
+  </script>
+</body>
+</html>
