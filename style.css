@@ -74,20 +74,7 @@ object-fit: contain;
 .hero-swiper .swiper-pagination-bullet { background: #fff; }
 .hero-swiper .swiper-pagination-bullet-active { background: #fff; opacity: 1; }
 
-/* シールロゴ */
-.hero-seal {
-  position: absolute;
-  bottom: 56px;
-  right: 20px;
-  width: 90px;
-  z-index: 10;
-  opacity: 0.92;
-  animation: float 4s ease-in-out infinite;
-}
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-6px); }
-}
+
 
 /* ===== PC右側情報 ===== */
 .hero-info {
